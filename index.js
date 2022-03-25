@@ -5,7 +5,7 @@ import bodyParser from "body-parser";
 import config from "./config.js";
 import mongoose from "mongoose";
 import userRoute from "./routes/userRoute.js";
-const path = require("path");
+const path = import("path");
 dotenv.config();
 
 const mongodbUrl = config.MONGODB_URL;
