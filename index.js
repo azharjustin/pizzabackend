@@ -1,10 +1,10 @@
 import express from "express";
-import data from "./data";
+import data from "./data.js";
 import dotenv from "dotenv";
 import bodyParser from "body-parser";
-import config from "./config";
+import config from "./config.js";
 import mongoose from "mongoose";
-import userRoute from "./routes/userRoute";
+import userRoute from "./routes/userRoute.js";
 const path = require("path");
 dotenv.config();
 
